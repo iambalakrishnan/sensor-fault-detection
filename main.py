@@ -15,6 +15,7 @@ from fastapi.responses import Response
 from sensor.ml.model.estimator import ModelResolver,TargetValueMapping
 from sensor.utils.main_utils import load_object
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 env_file_path=os.path.join(os.getcwd(),"env.yaml")
 
